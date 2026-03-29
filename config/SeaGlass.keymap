@@ -102,32 +102,32 @@
 
         default_layer {
             bindings = <
-&lt 5 Q                    &kp W      &kp E         &kp R             &lt 2 T      &lt 2 Y          &kp U                  &lt 5 I      &kp O       &lt 8 P
-&kp A                      &kp S      &kp D         &kp F             &kp G        &kp H            &kp J                  &kp K        &kp L       &kp ENTER
-&mt LEFT_SHIFT Z           &kp X      &kp C         &kp V             &kp B        &kp N            &kp M                  &kp COMMA    &kp PERIOD  &kp MINUS
-&mt LEFT_SHIFT LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN TAB  &lt 1 SPACE  &lt 3 BACKSPACE  &mt RIGHT_SHIFT LANG2  &lt 6 LANG1  &kp ESCAPE  &lt 8 MINUS
+&mt LANG_ZENKAKUHANKAKU Q  &kp W             &kp E         &kp R      &lt 2 T      &lt 2 Y          &kp U                       &lt 5 I      &mt LEFT_BRACKET O  &mt RIGHT_BRACKET P
+&mt SINGLE_QUOTE A         &kp S             &kp D         &kp F      &kp G        &kp H            &kp J                       &kp K        &kp L               &mt SEMICOLON ENTER
+&mt LEFT_SHIFT Z           &kp X             &kp C         &kp V      &kp B        &kp N            &kp M                       &kp COMMA    &kp PERIOD          &kp SLASH
+&mt LEFT_SHIFT LEFT_SHIFT  &mt LEFT_WIN TAB  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &lt 1 BACKSPACE  &mt RIGHT_SHIFT LANGUAGE_5  &lt 6 LANG1  &kp ESCAPE          &lt 8 DELETE
 &mkp MB1                   &mkp MB2
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>, <&encoder_msc_left_right>;
+            sensor-bindings = <&encoder_msc_left_right>, <&encoder_msc_down_up>;
         };
 
         SYMBOL {
             bindings = <
-&kp PRCNT  &kp DOLLAR  &kp AMPERSAND  &kp CARET        &kp FSLH      &kp BSLH        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
-&kp AT     &kp HASH    &kp ASTERISK   &kp PLUS         &kp EQUAL     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI       &kp COLON
-&kp GRAVE  &kp TILDE   &kp MINUS      &kp EXCLAMATION  &kp QUESTION  &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT        &kp DOUBLE_QUOTES
-&trans     &trans      &trans         &trans           &trans        &trans          &kp COMMA             &kp PERIOD             &kp ESC        &lt 5 ENTER
-&mkp MB1   &mkp MB2
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6    &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
+&kp AT        &kp HASH      &kp ASTERISK  &kp PLUS         &kp EQUAL     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI      &kp COLON
+&kp GRAVE     &kp TILDE     &kp MINUS     &kp EXCLAMATION  &kp QUESTION  &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT       &kp DOUBLE_QUOTES
+&trans        &trans        &trans        &trans           &trans        &trans          &kp COMMA             &kp PERIOD             &kp ESC       &lt 5 ENTER
+&mkp MB1      &mkp MB2
             >;
         };
 
         NUM {
             bindings = <
-&kp F11   &kp F12   &trans  &trans  &trans   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS         &kp MINUS
-&kp F6    &kp F7    &kp F8  &kp F9  &kp F10  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK     &kp SLASH
-&kp F1    &kp F2    &kp F3  &kp F4  &kp F5   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE  &kp COLON
-&trans    &trans    &trans  &trans  &trans   &trans        &kp NUMBER_0  &kp PERIOD    &trans           &trans
+&kp F1    &kp F2    &kp F3  &kp F4   &kp F5   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp MINUS
+&kp F6    &kp F7    &kp F8  &kp F9   &kp F10  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH
+&trans    &trans    &trans  &kp F11  &kp F12  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp BACKSLASH
+&trans    &trans    &trans  &trans   &trans   &trans        &kp NUMBER_0  &kp COMMA     &trans        &trans
 &mkp MB1  &mkp MB2
             >;
         };
@@ -183,6 +183,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans    &kp UP_ARROW    &trans           &trans  &trans  &trans  &trans  &trans  &trans  &kp BACKSPACE
+&kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &kp ENTER
+&trans    &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans
             >;
         };
     };
