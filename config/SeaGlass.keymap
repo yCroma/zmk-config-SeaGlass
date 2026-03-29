@@ -103,7 +103,7 @@
         default_layer {
             bindings = <
 &mt GRAVE Q                &kp W             &kp E         &kp R      &lt 2 T      &lt 2 Y          &mt LEFT_BRACKET U          &mt MINUS I          &mt EQUAL O      &mt BACKSPACE P
-&mt SINGLE_QUOTE A         &kp S             &kp D         &kp F      &kp G        &kp H            &kp J                       &mt RIGHT_BRACKET K  &mt BACKSLASH L  &mt SEMICOLON ENTER
+&mt SINGLE_QUOTE A         &kp S             &kp D         &kp F      &kp G        &kp H            &lt 7 J                     &mt RIGHT_BRACKET K  &mt BACKSLASH L  &mt SEMICOLON ENTER
 &mt LEFT_SHIFT Z           &kp X             &kp C         &kp V      &kp B        &kp N            &kp M                       &kp COMMA            &kp PERIOD       &mt INTERNATIONAL_3 SLASH
 &mt LEFT_SHIFT LEFT_SHIFT  &mt LEFT_WIN TAB  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &lt 1 BACKSPACE  &mt RIGHT_SHIFT LANGUAGE_5  &lt 6 LANG1          &kp ESCAPE       &lt 8 DELETE
 &mkp MB1                   &mkp MB2
@@ -178,11 +178,11 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans
+&kp BACKSPACE  &trans    &kp UP_ARROW  &trans     &kp DELETE  &trans  &trans  &trans  &trans  &trans
+&trans         &kp LEFT  &kp DOWN      &kp RIGHT  &kp ENTER   &trans  &trans  &trans  &trans  &trans
+&trans         &trans    &trans        &trans     &trans      &trans  &trans  &trans  &trans  &trans
+&trans         &trans    &trans        &trans     &trans      &trans  &trans  &trans  &trans  &trans
+&trans         &trans
             >;
         };
 
