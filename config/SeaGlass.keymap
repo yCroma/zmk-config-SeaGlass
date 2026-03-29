@@ -102,10 +102,10 @@
 
         default_layer {
             bindings = <
-&mt LANG_ZENKAKUHANKAKU Q  &kp W             &kp E         &kp R      &lt 2 T      &lt 2 Y          &kp U                       &lt 5 I      &mt LEFT_BRACKET O  &mt RIGHT_BRACKET P
-&mt SINGLE_QUOTE A         &kp S             &kp D         &kp F      &kp G        &kp H            &kp J                       &kp K        &kp L               &mt SEMICOLON ENTER
-&mt LEFT_SHIFT Z           &kp X             &kp C         &kp V      &kp B        &kp N            &kp M                       &kp COMMA    &kp PERIOD          &kp SLASH
-&mt LEFT_SHIFT LEFT_SHIFT  &mt LEFT_WIN TAB  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &lt 1 BACKSPACE  &mt RIGHT_SHIFT LANGUAGE_5  &lt 6 LANG1  &kp ESCAPE          &lt 8 DELETE
+&mt GRAVE Q                &kp W             &kp E         &kp R      &lt 2 T      &lt 2 Y          &kp U                       &mt LEFT_BRACKET I   &mt MINUS O      &mt EQUAL P
+&mt SINGLE_QUOTE A         &kp S             &kp D         &kp F      &kp G        &kp H            &kp J                       &mt RIGHT_BRACKET K  &mt BACKSLASH L  &mt SEMICOLON ENTER
+&mt LEFT_SHIFT Z           &kp X             &kp C         &kp V      &kp B        &kp N            &kp M                       &kp COMMA            &kp PERIOD       &kp SLASH
+&mt LEFT_SHIFT LEFT_SHIFT  &mt LEFT_WIN TAB  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &lt 1 BACKSPACE  &mt RIGHT_SHIFT LANGUAGE_5  &lt 6 LANG1          &kp ESCAPE       &lt 8 DELETE
 &mkp MB1                   &mkp MB2
             >;
 
