@@ -109,7 +109,7 @@
 &mkp MB1                   &mkp MB2
             >;
 
-            sensor-bindings = <&encoder_msc_left_right>, <&encoder_msc_down_up>;
+            sensor-bindings = <&encoder_msc_down_up>, <&encoder_msc_left_right>;
         };
 
         SYMBOL {
