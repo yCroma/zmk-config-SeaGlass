@@ -115,8 +115,8 @@
         SYMBOL {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6    &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&kp AT        &kp HASH      &kp ASTERISK  &kp PLUS         &kp EQUAL     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI      &kp COLON
-&kp GRAVE     &kp TILDE     &kp MINUS     &kp EXCLAMATION  &kp QUESTION  &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT       &kp DOUBLE_QUOTES
+&trans        &kp HASH      &kp ASTERISK  &kp PLUS         &kp EQUAL     &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI      &kp NON_US_BACKSLASH
+&trans        &kp TILDE     &kp MINUS     &kp EXCLAMATION  &kp QUESTION  &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT       &kp DOUBLE_QUOTES
 &trans        &trans        &trans        &trans           &trans        &trans          &kp COMMA             &kp PERIOD             &kp ESC       &lt 5 ENTER
 &mkp MB1      &mkp MB2
             >;
