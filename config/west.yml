@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: 4mplelab
       url-base: https://github.com/4mplelab
-    - name: kot149
-      url-base: https://github.com/kot149
+    - name: yCroma
+      url-base: https://github.com/yCroma
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -25,7 +25,7 @@ manifest:
       remote: 4mplelab
       revision: main
     - name: zmk-layout-shift
-      remote: kot149
+      remote: yCroma
       revision: v1
   self:
     path: config
