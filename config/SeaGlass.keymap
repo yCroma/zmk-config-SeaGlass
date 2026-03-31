@@ -13,17 +13,14 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 120
 
 &mt {
-    flavor = "balanced";
-    tapping-term-ms = <180>;
-    quick-tap-ms = <175>;
-    require-prior-idle-ms = <125>;
-    hold-trigger-on-release;
+    flavor = "tap-unless-interrupted";
+    tapping-term-ms = <150>;
+    require-prior-idle-ms = <100>;
 };
 
 &lt {
     flavor = "tap-preferred";
-    tapping-term-ms = <160>;
-    quick-tap-ms = <175>;
+    tapping-term-ms = <140>;
 };
 
 / {
