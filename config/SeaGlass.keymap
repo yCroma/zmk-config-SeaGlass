@@ -129,12 +129,11 @@
             bindings = <&kp>, <&kp>;
         };
 
-        z_shift_mt: z_shift_mt {
+        o_mt: o_mt {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <145>;
-            hold-while-undecided;
+            flavor = "balanced";
+            tapping-term-ms = <175>;
             bindings = <&kp>, <&kp>;
         };
     };
@@ -144,9 +143,9 @@
 
         default_layer {
             bindings = <
-&mt GRAVE Q                &kp W             &kp E             &kp R      &kp T        &kp Y        &at_mt LEFT_BRACKET U       &mt MINUS I            &mt EQUAL O         &kp BACKSPACE
+&mt GRAVE Q                &kp W             &kp E             &kp R      &kp T        &kp Y        &at_mt LEFT_BRACKET U       &mt MINUS I            &o_mt EQUAL O       &kp BACKSPACE
 &mt SINGLE_QUOTE A         &kp S             &kp D             &kp F      &kp G        &kp H        &lt 7 J                     &k_mt RIGHT_BRACKET K  &mt BACKSLASH L     &mt SEMICOLON ENTER
-&z_shift_mt LEFT_SHIFT Z   &kp X             &kp C             &kp V      &kp B        &kp N        &kp M                       &kp COMMA              &mt INT_YEN PERIOD  &mt INTERNATIONAL_1 SLASH
+&mt LEFT_SHIFT Z           &kp X             &kp C             &kp V      &kp B        &kp N        &kp M                       &kp COMMA              &mt INT_YEN PERIOD  &mt INTERNATIONAL_1 SLASH
 &mt LEFT_SHIFT LEFT_SHIFT  &mt LEFT_WIN TAB  &mt LEFT_ALT TAB  &kp LCTRL  &lt 2 SPACE  &lt 1 SPACE  &mt RIGHT_SHIFT LANGUAGE_5  &lt 6 LANG1            &kp ESCAPE          &mt LEFT_SHIFT DELETE
 &mkp MB1                   &mkp MB2
             >;
