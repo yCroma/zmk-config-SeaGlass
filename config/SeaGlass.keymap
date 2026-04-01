@@ -36,7 +36,7 @@
             key-positions = <10 11>;
         };
 
-        backspace {
+        p {
             bindings = <&kp P>;
             key-positions = <8 9>;
         };
@@ -44,6 +44,11 @@
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <20 21>;
         };
     };
 
