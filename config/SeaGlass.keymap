@@ -162,11 +162,11 @@
 
         default_layer {
             bindings = <
-&kp Q                      &kp W             &kp E             &kp R      &kp T               &kp Y        &at_mt LEFT_BRACKET U         &mt MINUS I  &o_mt EQUAL O       &kp BACKSPACE
-&a_mt SINGLE_QUOTE A       &kp S             &kp D             &kp F      &kp G               &kp H        &k_mt RIGHT_BRACKET J         &lt 7 K      &mt BACKSLASH L     &mt SEMICOLON ENTER
-&mt LEFT_SHIFT Z           &kp X             &kp C             &kp V      &kp B               &kp N        &kp M                         &kp COMMA    &mt INT_YEN PERIOD  &mt INTERNATIONAL_1 SLASH
-&mt LEFT_SHIFT LEFT_SHIFT  &mt LEFT_WIN TAB  &mt LEFT_ALT TAB  &kp LCTRL  &space2_lt 2 SPACE  &lt 1 SPACE  &mt RIGHT_CONTROL LANGUAGE_5  &lt 6 LANG1  &kp ESCAPE          &mt RIGHT_SHIFT DELETE
-&mkp MB1                   &mkp MB2
+&kp Q                 &kp W         &kp E         &kp R      &kp T               &kp Y        &at_mt LEFT_BRACKET U         &mt MINUS I  &o_mt EQUAL O       &kp BACKSPACE
+&a_mt SINGLE_QUOTE A  &kp S         &kp D         &kp F      &kp G               &kp H        &k_mt RIGHT_BRACKET J         &lt 7 K      &mt BACKSLASH L     &mt SEMICOLON ENTER
+&mt LEFT_SHIFT Z      &kp X         &kp C         &kp V      &kp B               &kp N        &kp M                         &kp COMMA    &mt INT_YEN PERIOD  &mt INTERNATIONAL_1 SLASH
+&kp LEFT_SHIFT        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &space2_lt 2 SPACE  &lt 1 SPACE  &mt RIGHT_CONTROL LANGUAGE_5  &lt 6 LANG1  &kp ESCAPE          &mt RIGHT_SHIFT DELETE
+&mkp MB1              &mkp MB2
             >;
 
             sensor-bindings = <&encoder_msc_down_up>, <&encoder_msc_left_right>;
